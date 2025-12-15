@@ -13,7 +13,7 @@ from PIL import Image
 MODEL_PATH = "model.h5"
 
 if not os.path.exists(MODEL_PATH):
-    url = f"https://drive.google.com/uc?id={FILE_ID}"
+    url = f"https://drive.google.com/uc?id=14zaQHuHJ0lleXvXNRfFSsnHUZfTFbmHk"
     gdown.download(url, MODEL_PATH, quiet=False)
 
 # -----------------------------

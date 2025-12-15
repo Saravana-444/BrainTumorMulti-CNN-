@@ -7,11 +7,11 @@ import gdown
 import os
 from PIL import Image
 
-FILE_ID = ""
+FILE_ID = "14zaQHuHJ0lleXvXNRfFSsnHUZfTFbmHk"
 MODEL_PATH = "model.h5"
 
 if not os.path.exists(MODEL_PATH):
-    url = f""
+    url = f"https://drive.google.com/file/d/14zaQHuHJ0lleXvXNRfFSsnHUZfTFbmHk/view?usp=sharing"
     gdown.download(url, MODEL_PATH, quiet=False)
 
 # -----------------------------
